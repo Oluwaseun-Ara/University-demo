@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>University</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="index.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/6398fe07d1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="main.js"
+    ></script>
+  </head>
+
+  <body>
+    <!-- nav bar -->
+    <div class="bg-top navbar-light">
+      <div class="container-fluid">
+        <div
+          class="row no-gutters d-flex align-items-center align-items-stretch"
+        >
+          <div class="col-md-4 d-flex align-items-center py-4 fw-bold fs-3">
+            <a
+              class="navbar-brand"
+              href=""
+              >Divine. &nbsp;<span class="fs-5 pt-0 mt-0">University</span></a
+            >
+          </div>
+          <div class="col-lg-8 d-block">
+            <div class="row d-flex">
+              <div
+                class="col-md d-flex topper align-items-center align-items-stretch py-md-4 pb-3"
+              >
+                <div
+                  class="icon d-flex justify-content-center align-items-center pe-3"
+                >
+                  <span id="orangeicon"
+                    ><i class="fa-solid fa-paper-plane"></i
+                  ></span>
+                </div>
+                <div class="text fw-bold">
+                  <span>Email</span><br />
+                  <span>*********@email.com</span>
+                </div>
+              </div>
+              <div
+                class="col-md d-flex topper align-items-center align-items-stretch py-md-4"
+              >
+                <div
+                  class="icon d-flex justify-content-center align-items-center pe-3"
+                >
+                  <span id="orangeicon"><i class="fa-solid fa-phone"></i></span>
+                </div>
+                <div class="text fw-bold">
+                  <span>Call</span><br />
+                  <span>Call Us: +234 000 000 0000</span>
+                </div>
+              </div>
+              <div
+                class="col-md topper d-flex align-items-center justify-content-end"
+              >
+                <p class="mb-0">
+                  <a
+                    href=""
+                    class="btn py-2 px-3 text-dark d-flex align-items-center justify-content-center fw-semibold"
+                    id="orange"
+                  >
+                    <span>Apply now</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- nav 2 -->
+    <nav
+      class="navbar navbar-expand-lg w-100 mx-auto"
+      id="nav"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler bg-secondary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>Menu
+        </button>
+        <div class="formb">
+          <form
+            class="d-flex"
+            role="search"
+            id="formb"
+          >
+            <input
+              class="form-control me-1 bg-transparent text-light"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn bg-transparent text-light"
+              type="submit"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+        <div
+          class="collapse navbar-collapse text-light"
+          id="navbarTogglerDemo03"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="./about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="./courses.html"
+                >Courses</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="./contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div class="forma">
+            <form
+              class="d-flex"
+              role="search"
+              id="forma"
+            >
+              <input
+                class="form-control me-1 bg-transparent text-light"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn bg-transparent text-light"
+                type="submit"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME -->
+    <div
+      id="carouselExampleInterval"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            id="but"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            class="active"
+            id="but"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner rounded-0 m-0 p-0 border-0">
+          <div
+            class="carousel-item active rounded-0"
+            data-bs-interval="3000"
+          >
+            <div class="card rounded-0 m-0 p-0">
+              <img
+                src="https://res.cloudinary.com/dx2qcodqr/image/upload/v1664061802/images/istockphoto-485558672-612x612_jwmj8c.jpg"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay text-light w-70 carocard">
+                <h1
+                  class="card-title pt-5 ps-5 m-0"
+                  id="big"
+                >
+                  EDUCATION NEEDS YOU
+                </h1>
+                <p class="card-text fs-5 pt-5 ps-5">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to <br />
+                  additional content. This content is a little bit longer.
+                </p>
+                <button
+                  class="btn border-opacity-10 rounded-pill text-dark fw-semibold"
+                  id="orange2"
+                  type="button "
+                  id="button-addon2 "
+                >
+                  Contact Us
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item rounded-0 m-0 p-0 border-0">
+            <div class="card rounded-0 m-0 p-0 border-0">
+              <img
+                src="https://res.cloudinary.com/dx2qcodqr/image/upload/v1664064009/images/what_I_do2_nruejn.jpg"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay text-light w-70 carocard">
+                <h1
+                  class="card-title pt-5 ps-5"
+                  id="big"
+                >
+                  EDUCATION NEEDS YOU
+                </h1>
+                <p class="card-text fs-5 pt-5 ps-5">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <button
+                  class="btn border-opacity-10 rounded-pill"
+                  id="orange2"
+                  type="button "
+                  id="button-addon2 "
+                >
+                  Contact Us
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card area under home-->
+    <div class="container-fluid text-center text-light p-0 m-0 w-100 g-0 h-100">
+      <div class="row g-0 container-fluid h-100 w-100 d-flex cardhome">
+        <div class="col p-0 cardcon">
+          <div
+            class="card pt-3 border-0 rounded-0 text-dark"
+            style="width: 100%; background-color: #fcf951ff; height: 250px"
+          >
+            <span><i class="fa-thin fa fa-users fa-2x"></i></span>
+            <div class="card-body">
+              <h5 class="card-title w-100 mx-auto">Certified Teachers</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col p-0">
+          <div
+            class="card pt-3 border-0 rounded-0 text-center"
+            style="width: 100%; background-color: #422057ff; height: 250px"
+          >
+            <span><i class="fa-thin fa fa-book-open-reader fa-2x"></i></span>
+            <div class="card-body">
+              <h5 class="card-title w-100 mx-auto">Special Education</h5>
+              <p class="card-text text-center">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col p-0">
+          <div
+            class="card pt-3 border-0 rounded-0 text-dark"
+            style="width: 100%; background-color: #fcf951ff; height: 250px"
+          >
+            <span><i class="fa-thin fa fa-book fa-2x"></i></span>
+            <div class="card-body">
+              <h5 class="card-title w-100 mx-auto">Books & Library</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col p-0">
+          <div
+            class="card pt-3 border-0 rounded-0"
+            style="width: 100%; background-color: #422057ff; height: 250px"
+          >
+            <span><i class="fa-thin fa fa-award fa-2x"></i></span>
+            <div class="card-body">
+              <h5 class="card-title w-100 mx-auto">Certificates</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- what we offer -->
+    <div
+      class="container-fluid m-0 p-0 d-flex flex-lg-shrink-1 justify-content-evenly align-items-center text-start"
+    >
+      <div class="container w-100 ms-3 ps-2 pt-0">
+        <div class="text pb-3 pt-0 mx-auto text-start mt-0">
+          <h1 class="fs-1 ms-3">What we offer</h1>
+          <div class="text-body text-start ms-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            repudiandae, consequuntur, officiis ex eius, eligendi temporibus
+            molestias reprehenderit necessitatibus alias illo? Deleniti
+            veritatis facilis autem repellat non doloremque error aliquam.
+          </div>
+        </div>
+        <div class="container text-start whattext p-0 m-0">
+          <div class="row text-start p-1">
+            <div class="col pb-3">
+              <div class="d-flex">
+                <span class="text pe-4"
+                  ><i
+                    class="fa-thin fa fa-laptop-code fa-2x fs-5"
+                    id="orange1"
+                  ></i
+                ></span>
+                <span
+                  ><h2>Resources and Facilities</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Expedita, accusantium voluptatem quibusdam error neque
+                    officia!
+                  </p></span
+                >
+              </div>
+            </div>
+            <div class="col pb-3">
+              <div class="d-flex">
+                <span class="text pe-4"
+                  ><i
+                    class="fa-thin fa fa-laptop-code fa-2x fs-5"
+                    id="orange1"
+                  ></i
+                ></span>
+                <span
+                  ><h2>Influential Network</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Expedita, accusantium voluptatem quibusdam error neque
+                    officia!
+                  </p></span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row text-start p-3">
+            <div class="col pb-3">
+              <div class="d-flex">
+                <span class="text pe-4"
+                  ><i
+                    class="fa-thin fa fa-laptop-code fa-2x fs-5"
+                    id="orange1"
+                  ></i
+                ></span>
+                <span
+                  ><h2>High Academic Standard</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Expedita, accusantium voluptatem quibusdam error neque
+                    officia!
+                  </p></span
+                >
+              </div>
+            </div>
+            <div class="col pb-3">
+              <div class="d-flex">
+                <span class="text pe-4"
+                  ><i
+                    class="fa-thin fa fa-laptop-code fa-2x fs-5"
+                    id="orange1"
+                  ></i
+                ></span>
+                <span
+                  ><h2>Employment Oppourtunities</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Expedita, accusantium voluptatem quibusdam error neque
+                    officia!
+                  </p></span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row text-start p-3">
+            <div class="col pb-3">
+              <div class="d-flex">
+                <span class="text pe-4"
+                  ><i
+                    class="fa-thin fa fa-laptop-code fa-2x fs-5"
+                    id="orange1"
+                  ></i
+                ></span>
+                <span
+                  ><h2>Community</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Expedita, accusantium voluptatem quibusdam error neque
+                    officia!
+                  </p></span
+                >
+              </div>
+            </div>
+            <div class="col pb-3">
+              <div class="d-flex">
+                <span class="text pe-4"
+                  ><i
+                    class="fa-thin fa fa-laptop-code fa-2x fs-5"
+                    id="orange1"
+                  ></i
+                ></span>
+                <span
+                  ><h2>Advance Information</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Expedita, accusantium voluptatem quibusdam error neque
+                    officia!
+                  </p></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-fluid me-5 p-0 h-100 mt-0 w-75 overflow-hidden what">
+        <img
+          class="h-100 me-5"
+          src="https://res.cloudinary.com/dx2qcodqr/image/upload/v1664059128/images/soundtrap-ddwbTn5HDdQ-unsplash_pfdmeh.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <!--counter Arch university-->
+    <div class="container-fluid bout mb-5 pb-0">
+      <div
+        class="container-fluid d-flex justify-content-evenly mx-auto align-items-center counttext"
+      >
+        <div class="img-fluid p-3 mt-5 overflow-hidden countimg">
+          <img
+            src="https://res.cloudinary.com/dx2qcodqr/image/upload/v1664061294/images/istockphoto-947724254-612x612_o0wsiu.jpg"
+            alt=""
+          />
+        </div>
+        <div
+          class="card border-0 mt-5 p-2 bg-transparent text-light fs-6 w-100 fw-semibold"
+        >
+          <div class="card-title p-1 fs-2 fw-semibold">ARCH UNIVERSITY</div>
+          <div class="card-body p-1">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Cupiditate, quo ea dicta commodi in error. Fugit laborum explicabo,
+            aut fugiat consectetur quam ullam illo vero deleniti, unde quisquam
+            dolorum consequuntur. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Magnam nihil, voluptatem voluptatum, quod hic qui
+            pariatur error recusandae accusantium eaque a eos deleniti eveniet
+            quo consequuntur nam alias veritatis. Eum?
+          </div>
+        </div>
+      </div>
+
+      <div class="counter">
+        <div class="container">
+          <div class="row w-100">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+              <div class="employees">
+                <p class="counter-count">20</p>
+                <p class="employee-p">Certified Teachers</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+              <div class="customer">
+                <p class="counter-count">1454</p>
+                <p class="customer-p">Students</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+              <div class="design">
+                <p class="counter-count">30</p>
+                <p class="design-p">courses</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+              <div class="order">
+                <p class="counter-count">50</p>
+                <p class="order-p">Awards won</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <!-- courses section -->
+    <div class="container-fluid course_container">
+      <div class="card-header text-center fw-semibold pb-3 mb-5">
+        <h1>OUR COURSES</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi esse
+          asperiores dicta veniam autem voluptas saepe, earum quos quo repellat.
+        </p>
+      </div>
+      <div class="container-fluid d-flex w-100 courses">
+        <div class="card border-0 p-0 me-3 rounded-0 coursecard">
+          <img
+            src="https://img.freepik.com/free-photo/scientist-wearing-coverall-equipped-medical-laboratory-examining-drug-discovery-with-micropipette-biochemists-analysing-virus-evolution-using-high-tech-researching-vaccine-against-covid19_482257-3798.jpg?w=826&t=st=1683968392~exp=1683968992~hmac=b5281abc65b4167dba949b67a6109a747cb32c633f21d260cd9fbd9df2bc76b0"
+            class="card-img-top rounded-0"
+            style="height: 300px"
+            alt="Science Picture With Well Equiped Lab"
+          />
+          <div class="card-body text-start px-0 m-0">
+            <h5 class="card-title">SCIENCE</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
+              in blanditiis eius consectetur placeat recusandae similique vero
+              enim voluptate voluptates, veritatis culpa obcaecati praesentium
+              mollitia dignissimos corrupti ipsum dolorem alias.
+            </p>
+            <a
+              href="#"
+              class="btn"
+              >Apply Now</a
+            >
+          </div>
+        </div>
+        <div class="card border-0 p-0 me-3 rounded-0 coursecard">
+          <img
+            src="https://img.freepik.com/free-photo/macro-view-clock-mechanism_155003-8195.jpg?w=826&t=st=1683968529~exp=1683969129~hmac=06915f8634440db1c15ddae0171b301af0fc716bc48806ec0c3ad9ef814e157d"
+            class="card-img-top rounded-0"
+            style="height: 300px"
+            alt="Engineering image"
+          />
+          <div class="card-body text-start px-0 m-0">
+            <h5 class="card-title">ENGINEERING</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
+              in blanditiis eius consectetur placeat recusandae similique vero
+              enim voluptate voluptates, veritatis culpa obcaecati praesentium
+              mollitia dignissimos corrupti ipsum dolorem alias.
+            </p>
+            <a
+              href="#"
+              class="btn"
+              >Apply Now</a
+            >
+          </div>
+        </div>
+        <div class="card border-0 p-0 me-3 rounded-0 coursecard">
+          <img
+            src="https://img.freepik.com/free-photo/accountant-calculating-profit-with-financial-analysis-graphs_74855-4937.jpg?w=826&t=st=1683968648~exp=1683969248~hmac=daa03db7af0bdd1a0cef3035ad007d08f3f4af2c2b78af880fa0b2c00bed9898"
+            class="card-img-top rounded-0"
+            style="height: 300px"
+            alt="Finance image"
+          />
+          <div class="card-body text-start px-0 m-0">
+            <h5 class="card-title">FINANCE</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
+              in blanditiis eius consectetur placeat recusandae similique vero
+              enim voluptate voluptates, veritatis culpa obcaecati praesentium
+              mollitia dignissimos corrupti ipsum dolorem alias.
+            </p>
+            <a
+              href="#"
+              class="btn"
+              >Apply Now</a
+            >
+          </div>
+        </div>
+        <div class="card border-0 p-0 me-3 rounded-0 coursecard">
+          <img
+            src="https://img.freepik.com/free-vector/digital-global-connection-network-technology-background_1017-23324.jpg?w=826&t=st=1683968700~exp=1683969300~hmac=c29a08434d12bbbedc15528ffa46d903bdebc314bb2fe126acc2af9890a2ab61"
+            class="card-img-top rounded-0"
+            style="height: 300px"
+            alt="Information Technology"
+          />
+          <div class="card-body text-start px-0 m-0">
+            <h5 class="card-title">IT</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
+              in blanditiis eius consectetur placeat recusandae similique vero
+              enim voluptate voluptates, veritatis culpa obcaecati praesentium
+              mollitia dignissimos corrupti ipsum dolorem alias.
+            </p>
+            <a
+              href="#"
+              class="btn"
+              >Apply Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- cerfified teachers/staff section -->
+    <div class="container-fluid mt-5 teacher pb-5 m-0">
+      <div class="card-header text-center fw-semibold pb-3 mb-5 pt-5">
+        <h1>CERTIFIED TEACHERS</h1>
+        <p class="p-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi esse
+          asperiores dicta veniam autem voluptas saepe, earum quos quo repellat.
+        </p>
+      </div>
+      <div
+        class="container-fluid w-100"
+        data-aos="fade-up"
+      >
+        <div class="row mx-auto container-fluid">
+          <div
+            class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center"
+          >
+            <div
+              class="member"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member-img mx-auto">
+                <img
+                  src="https://img.freepik.com/free-photo/happy-successful-business-leader-signing-agreement_74855-2307.jpg?w=826&t=st=1683969178~exp=1683969778~hmac=1d6d5ce0f63dfe977622259d624460c767995412c8ab6f7c168d766e1f54eab4"
+                  class="img-fluid pt-3"
+                  alt=""
+                />
+           
+                <div class="social">
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+              <!-- member info -->
+              <div class="member-info">
+                <h2>Lorem Ipsum</h2>
+                <span>Course</span>
+                <p>
+                  I am an ambitious workaholic, but apart from that, pretty
+                  simple person.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd -->
+
+          <div
+            class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center"
+          >
+            <div
+              class="member"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member-img mx-auto">
+                <img
+                  src="https://img.freepik.com/free-photo/smiling-woman-writing-notes-tablet-digital-device_53876-128806.jpg?size=626&ext=jpg&uid=R102700601&ga=GA1.2.1941157495.1683968356&semt=sph"
+                  class="img-fluid pt-3"
+                  alt=""
+                />
+              
+                <div class="social">
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+              <!-- member info -->
+              <div class="member-info">
+                <h2>Lorem Ipsum</h2>
+                <span>Course</span>
+                <p>
+                  I am an ambitious workaholic, but apart from that, pretty
+                  simple person.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 3rd -->
+
+          <div
+            class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center"
+          >
+            <div
+              class="member"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member-img mx-auto">
+                <img
+                  src="https://img.freepik.com/free-photo/indoor-shot-pleased-dark-skinned-successful-man-dressed-elegnatly-carries-documentation_273609-24445.jpg?size=626&ext=jpg&uid=R102700601&ga=GA1.2.1941157495.1683968356&semt=sph"
+                  class="img-fluid pt-3"
+                  alt=""
+                />
+                <!-- social icon -->
+                <div class="social">
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+              <!-- member info -->
+              <div class="member-info">
+                <h2>Lorem Ipsum</h2>
+                <span>Course</span>
+                <p>
+                  I am an ambitious workaholic, but apart from that, pretty
+                  simple person.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4th -->
+
+          <div
+            class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center"
+          >
+            <div
+              class="member"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member-img mx-auto">
+                <img
+                  src="https://img.freepik.com/free-photo/surprised-young-afro-american-student-with-backpack-holding-book-putting-hand-his-forehead_141793-122998.jpg?size=626&ext=jpg&uid=R102700601&ga=GA1.2.1941157495.1683968356&semt=sph"
+                  class="img-fluid pt-3"
+                  alt=""
+                />
+                <!-- social icon -->
+                <div class="social">
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+              <!-- member info -->
+              <div class="member-info">
+                <h2>Lorem Ipsum</h2>
+                <span>Course</span>
+                <p>
+                  I am an ambitious workaholic, but apart from that, pretty
+                  simple person.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- request a quote -->
+    <div class="container-fluid bout mt-0 pt-5">
+      <div class="card-header text-light">
+        <h1>Request A Quote</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          perferendis maxime aliquam qui similique, consectetur tempore quos
+          molestias repellendus, ducimus fugit ut iusto. Accusantium est natus
+          libero eum blanditiis possimus.
+        </p>
+      </div>
+      <form class="row g-3 text-light bg-transparent fs-5">
+        <div class="col-md-5">
+          <label
+            for="inputEmail4"
+            class="form-label"
+            >First Name</label
+          >
+          <input
+            type="text"
+            class="form-control bg-transparent"
+            id="inputEmail4"
+          />
+        </div>
+        <div class="col-md-5">
+          <label
+            for="inputPassword4"
+            class="form-label"
+            >Last Name</label
+          >
+          <input
+            type="text"
+            class="form-control bg-transparent"
+            id="inputPassword4"
+          />
+        </div>
+
+        <div class="col-md-4">
+          <label
+            for="inputCity"
+            class="form-label"
+            >Phone</label
+          >
+          <input
+            type="number"
+            class="form-control bg-transparent"
+            id="inputCity"
+          />
+        </div>
+        <div class="col-md-4">
+          <label
+            for="inputState"
+            class="form-label"
+            >Select Your Course</label
+          >
+          <select
+            id="inputState"
+            class="form-select bg-transparent text-light"
+          >
+            <option selected>select...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="mb-3 w-75">
+          <label
+            for="exampleFormControlTextarea1"
+            class="form-label"
+            >Message</label
+          >
+          <textarea
+            class="form-control bg-transparent"
+            id="exampleFormControlTextarea1"
+            cols="0"
+            rows="3"
+          ></textarea>
+        </div>
+
+        <div class="col-6">
+          <button
+            type="submit"
+            class="btn fs-5 rounded-pill p-2 text-dark fw-semibold"
+            id="orange"
+          >
+            Request A Quote
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- footer -->
+    <foot-er></foot-er>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js "
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa "
+      crossorigin="anonymous "
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // number count
+      $(".counter-count").each(function () {
+        $(this)
+          .prop("Counter", 0)
+          .animate(
+            {
+              Counter: $(this).text(),
+            },
+            {
+              duration: 5000,
+              easing: "swing",
+              step: function (now) {
+                $(this).text(Math.ceil(now));
+              },
+            }
+          );
+      });
+    </script>
+  </body>
+</html>

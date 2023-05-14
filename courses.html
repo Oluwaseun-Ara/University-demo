@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="index.css"
+    />
+   
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/6398fe07d1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="main.js"
+    ></script>
+    <title>Courses</title>
+    <style>
+      .Block {
+        background-color: white;
+        grid-template-columns: auto auto auto auto;
+        padding: 10px;
+        margin-top: 60px;
+        display: grid;
+        column-gap: 10px;
+      }
+      .button {
+        background-color: #4caf50;
+        /* Green */
+        border: none;
+        border-radius: 30px;
+        color: white;
+        padding: 16px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+
+      .button3 {
+        background-color: #f44336;
+        color: white;
+        border: 2px solid #f44336;
+      }
+
+      .button3:hover {
+        background-color: white;
+        color: #f44336;
+      }
+
+      .Blck {
+        background-color: white;
+        display: flex;
+        padding: 10px;
+        margin-top: 20px;
+      }
+
+      .blocktwo {
+        padding: 10px;
+      }
+
+      img {
+        height: 250px;
+        width: 100%;
+      }
+
+      .hero {
+        width: 100%;
+      }
+
+      @media screen and (max-width: 850px) {
+        .Block {
+          grid-template-columns: 50% 50%;
+          gap: 20px;
+          padding: 0px 30px;
+        }
+      }
+
+      @media screen and (max-width: 550px) {
+        .Block {
+          grid-template-columns: auto;
+          gap: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav-bar></nav-bar>
+    <div class="hero">
+      <div class="hero-image mx-auto pt-4">
+        <div class="hero-para mx-auto pt-4 mt-3">
+          <h1 class="text-center fw-bold text-light fs-1">COURSES</h1>
+          <nav
+            style="
+              --bs-breadcrumb-divider: url(
+                &#34;data:image/svg + xml,
+                %3Csvgxmlns='http://www.w3.org/2000/svg'width='8'height='8'%3E%3Cpathd='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z'fill='%236c757d'/%3E%3C/svg%3E&#34;
+              );
+            "
+            aria-label="breadcrumb"
+          >
+            <ol
+              class="breadcrumb d-flex mx-auto align-items-center justify-content-center pt-3"
+            >
+              <li class="breadcrumb-item">
+                <a
+                  class="text-light fw-semibold fs-3"
+                  href="./index.html"
+                  >HOME</a
+                >
+              </li>
+              <li
+                class="breadcrumb-item active text-light fw-semibold fs-3"
+                aria-current="page"
+              >
+                COURSES
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="Block">
+      <div class="card border-0 p-0 me-3 rounded-0  blocktwo">
+        <img
+          src="https://img.freepik.com/free-photo/scientist-wearing-coverall-equipped-medical-laboratory-examining-drug-discovery-with-micropipette-biochemists-analysing-virus-evolution-using-high-tech-researching-vaccine-against-covid19_482257-3798.jpg?w=826&t=st=1683968392~exp=1683968992~hmac=b5281abc65b4167dba949b67a6109a747cb32c633f21d260cd9fbd9df2bc76b0"
+          class="card-img-top rounded-0"
+          style="height: 300px"
+          alt="Science Picture With Well Equiped Lab"
+        />
+        <div class="card-body text-start px-0 m-0">
+          <h5 class="card-title">SCIENCE</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
+            in blanditiis eius consectetur placeat recusandae similique vero
+            enim voluptate voluptates, veritatis culpa obcaecati praesentium
+            mollitia dignissimos corrupti ipsum dolorem alias.
+          </p>
+          <a
+            href="#"
+            class="button button3">Apply Now</a
+          >
+        </div>
+      </div>
+      <div class="card border-0 p-0 me-3 rounded-0  blockone">
+        <img
+          src="https://img.freepik.com/free-photo/macro-view-clock-mechanism_155003-8195.jpg?w=826&t=st=1683968529~exp=1683969129~hmac=06915f8634440db1c15ddae0171b301af0fc716bc48806ec0c3ad9ef814e157d"
+          class="card-img-top rounded-0"
+          style="height: 300px"
+          alt="Engineering image"
+        />
+        <div class="card-body text-start px-0 m-0">
+          <h5 class="card-title">ENGINEERING</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
+            in blanditiis eius consectetur placeat recusandae similique vero
+            enim voluptate voluptates, veritatis culpa obcaecati praesentium
+            mollitia dignissimos corrupti ipsum dolorem alias.
+          </p>
+          <a
+            href="#"
+            class="button button3">Apply Now</a
+          >
+        </div>
+      </div>
+      <div class="card border-0 p-0 me-3 rounded-0  blockone">
+        <img
+          src="https://img.freepik.com/free-photo/accountant-calculating-profit-with-financial-analysis-graphs_74855-4937.jpg?w=826&t=st=1683968648~exp=1683969248~hmac=daa03db7af0bdd1a0cef3035ad007d08f3f4af2c2b78af880fa0b2c00bed9898"
+          class="card-img-top rounded-0"
+          style="height: 300px"
+          alt="Finance image"
+        />
+        <div class="card-body text-start px-0 m-0">
+          <h5 class="card-title">FINANCE</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
+            in blanditiis eius consectetur placeat recusandae similique vero
+            enim voluptate voluptates, veritatis culpa obcaecati praesentium
+            mollitia dignissimos corrupti ipsum dolorem alias.
+          </p>
+          <a
+          href="#"
+          class="button button3">Apply Now</a
+        >
+        </div>
+      </div>
+      <div class="card border-0 p-0 me-3 rounded-0  blockone">
+        <img
+          src="https://img.freepik.com/free-vector/digital-global-connection-network-technology-background_1017-23324.jpg?w=826&t=st=1683968700~exp=1683969300~hmac=c29a08434d12bbbedc15528ffa46d903bdebc314bb2fe126acc2af9890a2ab61"
+          class="card-img-top rounded-0"
+          style="height: 300px"
+          alt="Information Technology"
+        />
+        <div class="card-body text-start px-0 m-0">
+          <h5 class="card-title">IT</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
+            in blanditiis eius consectetur placeat recusandae similique vero
+            enim voluptate voluptates, veritatis culpa obcaecati praesentium
+            mollitia dignissimos corrupti ipsum dolorem alias.
+          </p>
+          <a
+          href="#"
+          class="button button3">Apply Now</a
+        >
+        </div>
+      </div>
+    </div>
+    <div class="Block">
+      <div class="blocktwo">
+        <img
+          src="https://img.freepik.com/free-photo/volumetric-musical-background-with-treble-clef-notes-generative-ai_169016-29576.jpg?size=626&ext=jpg&uid=R102700601&ga=GA1.2.1941157495.1683968356&semt=sph "
+          alt="Music"
+        />
+        <h2>Music</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum in
+          blanditiis eius consectetur placeat recusandae similique vero enim
+          voluptate voluptates, veritatis culpa obcaecati praesentium mollitia
+          dignissimos corrupti ipsum dolorem alias.
+        </p>
+        <button class="button button3">Apply Now</button>
+      </div>
+      <div class="blocktwo">
+        <img
+          src="https://img.freepik.com/free-vector/welcome-different-languages_23-2147875437.jpg?size=626&ext=jpg&uid=R102700601&ga=GA1.2.1941157495.1683968356&semt=sph"
+          alt=" "
+        />
+        <h2>Linguistics</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum in
+          blanditiis eius consectetur placeat recusandae similique vero enim
+          voluptate voluptates, veritatis culpa obcaecati praesentium mollitia
+          dignissimos corrupti ipsum dolorem alias.
+        </p>
+        <button class="button button3">Apply Now</button>
+      </div>
+      <div class="blocktwo">
+        <img
+          src="https://img.freepik.com/free-photo/close-up-african-american-hand-holding-stethoscope_482257-19507.jpg?size=626&ext=jpg&uid=R102700601&ga=GA1.1.1941157495.1683968356&semt=sph"
+          alt=" "
+        />
+        <h2>Medicine</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum in
+          blanditiis eius consectetur placeat recusandae similique vero enim
+          voluptate voluptates, veritatis culpa obcaecati praesentium mollitia
+          dignissimos corrupti ipsum dolorem alias.
+        </p>
+        <button class="button button3">Apply Now</button>
+      </div>
+      <div class="blocktwo">
+        <img
+          src="https://img.freepik.com/free-photo/rolled-maps-wooden-desk_23-2148232514.jpg?size=626&ext=jpg&uid=R102700601&ga=GA1.1.1941157495.1683968356&semt=sph"
+          alt=" "
+        />
+        <h2>Survey</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum in
+          blanditiis eius consectetur placeat recusandae similique vero enim
+          voluptate voluptates, veritatis culpa obcaecati praesentium mollitia
+          dignissimos corrupti ipsum dolorem alias.
+        </p>
+        <button class="button button3">Apply Now</button>
+      </div>
+    </div>
+    <foot-er></foot-er>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js "
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa "
+      crossorigin="anonymous "
+    ></script>
+    <script src="/jquery-ui-1.13.2/external/jquery/jquery.js "></script>
+  </body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="https://kit.fontawesome.com/6398fe07d1.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>
+<style>
+    .card-footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    footer li {
+        list-style-type: square;
+        margin-bottom: 10px;
+        margin-left: -20px;
+        font-size: 13px;
+        color: white;
+    }
+    
+    footer li:hover {
+        color: #422057ff;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    footer input {
+        background-color: transparent;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: white;
+        padding: 8px;
+    }
+    
+    footer #email::placeholder {
+        background-color: transparent;
+    }
+    
+    footer button {
+        border: 1px solid white;
+        background-color: transparent;
+        text-align: center;
+        width: 258px;
+        padding: 8px;
+        color: white;
+    }
+    
+    footer button:hover {
+        background-color: #422057ff;
+        border: transparent;
+    }
+    
+    footer #icon1,
+    footer #icon2,
+    footer #icon3 {
+        padding: 5px 10px;
+        color: white;
+    }
+    
+    footer #icon1:hover {
+        color: blueviolet;
+    }
+    
+    footer #icon2:hover {
+        color: #fcf951ff;
+    }
+    
+    footer #icon3:hover {
+        color: teal;
+    }
+    
+    @media screen and (max-width:970px) {
+        .card-footer {
+            display: grid;
+            gap: 50px;
+            padding: 0px 30px;
+            grid-template-columns: auto auto;
+        }
+    }
+    
+    @media screen and (max-width:620px) {
+        .card-footer {
+            display: grid;
+            grid-template-columns: auto;
+        }
+    }
+    
+    @media screen and (max-width:310px) {
+        footer button {
+            width: 220px;
+        }
+        footer input {
+            width: 220px;
+        }
+    }
+</style>
+
+<body>
+    <footer class="bg-dark container-fluid p-0 m-0 w-100 text-light">
+        <section class="card-footer pt-5 mx-auto px-3">
+            <!-- have a question -->
+            <div class="col1">
+                <h2 class="fs-5 mb-4">Have a Questions?</h2>
+                <div class="row mb-4">
+                    <div class="col d-flex">
+                        <i class="fa fa-map-marker" id="callicon" aria-hidden="true"></i>
+                        <h4 class="fs-6 ps-4">Lorem, ipsum dolor.<br> Lorem ipsum dolor sit amet.</h4>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col d-flex">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <h4 class="fs-6 ps-4">+234 *** *** ****</h4>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col d-flex">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <h4 class="fs-6 ps-4">info@yourdomain.com</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- recent blog -->
+            <div class="col2">
+                <h2 class="fs-5 mb-4">Recent Blog</h2>
+                <h4 class="fs-6">Lorem, ipsum.</h4>
+                <br />
+                <div class="row">
+                    <div class="col d-flex">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <h6 class="fs-6 ps-2 text-secondary">June 27, 2019</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <h6 class="fs-6 ps-2 text-secondary">Admin <span><i class="fa-thin fa fa-message ps-2" aria-hidden="true"></i></span class="text-secondary">19</h6>
+                    </div>
+                </div>
+                <h4 class="fs-6 mt-3">Lorem, ipsum dolor.</h4>
+                <br />
+                <div class="row">
+                    <div class="col d-flex">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <h6 class="fs-6 ps-2 text-secondary">June 27, 2019</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <h6 class="fs-6 ps-2 text-secondary">Admin <span><i class="fa-thin fa fa-message ps-2" aria-hidden="true"></i></span class="text-secondary">19</h6>
+                        </div>
+                </div>
+            </div>
+<!-- links -->
+            <div class="col3 text-light">
+                <h2 class="fs-5 mb-4">Links</h2>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./courses.html">Courses</a></li>
+    
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+<!-- suscribe -->
+            <div class="col4">
+                <h2 class="fs-5 mb-4">Subscribe Us!</h2>
+                <form action="#">
+                    <input type="email" name="email" id="email" placeholder="Enter Email" required>
+                    <br />
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="connect">
+                    <h2 class="fs-5 mt-4">Connect With Us</h2>
+                    <div class="icon mt-4">
+                        <a href="#"><i id="icon1" class="bi bi-facebook fs-4"></i></a>
+                        <a href="#"><i id="icon2" class="bi bi-instagram fs-4"></i></a>
+                        <a href="#"><i id="icon3" class="bi bi-twitter fs-4"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p class="card-footer text-light text-center pt-5 mb-0 pb-4 mx-auto">Copyright &copy;2019 All rights reserved | This Website is made by the Designer Team</p>
+    </footer>
+</body>
+
+</html>
